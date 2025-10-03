@@ -1,0 +1,61 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#1a8bff",
+        "activityBar.background": "#1a8bff",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#ffbfdf",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#1a8bff",
+        "statusBar.background": "#0072e6",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#1a8bff",
+        "statusBarItem.remoteBackground": "#0072e6",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#0072e6",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#0072e699",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#0072e6",
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.colorTheme": "GitHub Dark High Contrast",
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "variable": "#9CDCFE",
+            "parameter": "#FFD580",
+            "property": "#9CDCFE",
+            "function": "#DCDCAA",
+            "method": "#DCDCAA",
+            "class": "#4EC9B0",
+            "namespace": "#C586C0",
+            "keyword": "#C586C0",
+            "type": "#4EC9B0",
+            "comment": "#6A9955"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#6A9955",
+        "strings": "#CE9178",
+        "textMateRules": [
+            {
+                "scope": "entity.name.function",
+                "settings": { "foreground": "#DCDCAA" }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": { "foreground": "#FFD580" }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": { "foreground": "#4EC9B0" }
+            }
+        ]
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
